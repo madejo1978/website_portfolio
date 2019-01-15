@@ -1,0 +1,208 @@
+.debug {
+    border: purple 3px solid;
+}
+
+/***********************************************/
+/******************* LAYOUT FLEXBOX ************/
+/***********************************************/
+
+.bigWrapper {
+    background-color:red;
+    height: 400vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper-left {
+    background-color: yellow;
+    height: 100%;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-right {
+    background-color: white;
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box; 
+}
+
+.wrapper-intro {
+    background-color: #eae9e5;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 4;
+    position: relative;
+    display: flex;
+    
+}
+
+.intro-navbar {
+    background-color: #c3c8d4;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+    display:flex;
+    position: relative;
+}
+
+.content {
+    background-color: #c3c8d4;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 8;
+    display: flex;
+    position: relative;
+    
+ 
+}
+
+.contact {
+    background-color:#8d3523; 
+    width: 100%;
+    box-sizing: border-box;
+    flex: 6;
+    position: relative;
+    flex-direction: column;
+}
+
+.footer {
+background-color: #c3c8d4;
+width: 100%;
+box-sizing: border-box;
+flex: 2;
+position: relative;
+}
+
+
+/*** INTRO ***/
+
+.intro-logo {
+    margin-top: 4%;
+    margin-left: 5%;
+    background-color: #eae9e5;
+    height: 15%;
+    width: 20%;
+
+}
+
+.intro-text {
+    margin-top: 25%;
+    margin-left: 50%;
+    height: 46%;
+    width: 42%; 
+    position: absolute;
+    overflow: hidden; 
+}
+
+/*** INTRO ***/
+.content-text {
+    flex-direction: column;
+}
+
+.pic-2 {
+    width: 534px;
+}
+
+
+.intro-navbar debug {
+    display: flex;    
+    
+}
+
+.intro-navbar-row-left  {
+    width: 50%;
+    margin-top: 4%;
+    float: left:
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-navbar-row-left a {
+    text-decoration: none;
+    margin-left: 7%;
+}
+
+.intro-navbar-row-right {
+    width: 50%;
+    margin-top: 4%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-navbar-row-right a {
+    text-decoration: none;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+
+/*** CONTENT ***/
+
+.content-pic {
+    height: 100%;
+    width: 50%;
+}
+
+.pic-content {
+    width: 360px;
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.content-text {
+    margin-top: 4%;
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+.content-text p {
+    width: 60%;
+}
+
+.content-socialMedia {
+    margin-top: 10%;
+    height: 50%;
+    width: 70%;
+    position: absolute;
+}
+
+.content-socialMedia li {
+    list-style-type: none;
+    padding: 1%;
+}
+
+.content-socialMedia li a {
+    text-decoration-line: none;    
+}
+
+/*** CONTACT ***/
+
+
+.contact-text {
+margin-left: 3%;
+margin-top: 20%;
+position: absolute;
+}
+
+.contact-mail {
+margin-left: 2.5%;
+margin-top: 56%;
+position: absolute;
+}
+
+/*** FOOTER ***/
+
+.footer-text  {
+    margin-top: 13%;
+    margin-left: 3%;
+    position: absolute;
+}
+
