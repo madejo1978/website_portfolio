@@ -1,0 +1,161 @@
+/* .debug {
+    border: purple 3px solid;
+}
+
+/***********************************************/
+/******************* LAYOUT FLEXBOX ************/
+/***********************************************/
+
+.bigWrapper {
+    background-color:red;
+    height: 300vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper-left {
+    background-color: yellow;
+    height: 100%;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-right {
+    background-color: white;
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box; 
+}
+
+.wrapper-intro {
+    background-color: #eae9e5;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+    position: relative;
+    display: flex;
+}
+
+
+.intro-text-form {
+    margin-top: 20%;
+    margin-left: 25%;
+    height: 46%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.intro-navbar {
+    background-color: #c3c8d4;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+    display:flex;
+    position: relative;
+}
+
+.content {
+    background-color: #c3c8d4;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 2;
+    display: flex;
+    position: relative;
+}
+
+.contact {
+    background-color:#8d3523; 
+    width: 100%;
+    box-sizing: border-box;
+    flex: 0;
+    position: relative;
+    flex-direction: column;
+}
+
+.footer {
+background-color: white;
+width: 100%;
+box-sizing: border-box;
+flex: 0.5;
+position: relative;
+}
+
+/*** INTRO ***/
+
+.intro-logo {
+    margin-top: 4%;
+    margin-left: 5%;
+    background-color: #eae9e5;
+    height: 15%;
+    width: 20%;
+}
+
+.intro-text {
+    margin-left: 50%;
+    height: 46%;
+    width: 100%; 
+    position: absolute;
+    overflow: scroll; 
+}
+
+.intro-text2 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 0%;   
+}
+
+
+/*** CONTENT ***/
+
+.content-pic {
+    height: 100%;
+    width: 50%;
+}
+
+.pic-content {
+    width: 360px;
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.content-form {
+    margin-top: 0;
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+
+.content-form p {
+    width: 60%;
+}
+
+.form-box {
+    max-width: 500px;
+    margin-top: auto;
+    padding: 50px;
+    background: #c3c8d4;
+    border: 0;
+    transition: transform .3s;
+  }
+
+.form-box:hover {  
+    transform: scale(2.0); /* no need for glasses */ 
+    cursor: pointer;
+}
+  
+  h1, p {
+    text-align: center;
+}
+  
+  input, textarea {
+    width: 100%;
+  }
+
+  /*** footer ***/
+  
+  .footer-mail {
+      margin-left: 2%;
+  }

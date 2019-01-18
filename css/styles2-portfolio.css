@@ -1,0 +1,170 @@
+/* .debug {
+    border: purple 3px solid;
+} */
+
+.bigWrapper {
+    background-color:red;
+    height: 200vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-Wrapper {
+    background-color: #c3c8d4;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 256px 256px 256px;
+    grid-template-rows: 256px 256px 256px;
+    justify-content: center;
+  }
+
+.wrapper-left {
+    background-color: yellow;
+    height: 100%;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-right {
+    background-color: white;
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box; 
+}
+
+.wrapper-top {
+    background-color: #eae9e5;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+    display: flex;
+    position: relative;
+}
+
+.intro-logo {
+  margin-top: 4%;
+  margin-left: 5%;
+  background-color: #eae9e5;
+  height: 15%;
+  width: 20%;
+}
+
+.footer {
+    background-color: #eae9e5;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 2;
+    display: flex;
+}
+
+/******* INTRO ******/
+
+.intro-text2 {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 10%;
+  
+
+}
+
+/******* PORTFOLIO ******/
+.portfolio {
+    background-color: #8d3523;  
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio p {
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Number 23', Georgia, sans-serif;
+  
+  color: black;
+}
+
+/******* Grid Box ******/
+
+  #A {
+    grid-column: 0 / 3;
+    grid-row: 0 / 3;    
+    background-color: #c3c8d4;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+/*  Hover text box - no need for glasses
+    transition: transform .3s;
+    #A:hover {  
+    transform: scale(2.0);    
+    cursor: pointer;  
+} */
+
+  #B {
+    background-color: #c3c8d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #C {
+    background-color: #c3c8d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  #D {
+    background-color: #c3c8d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  #E {
+    background-color: #c3c8d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #F {
+    background-color: #c3c8d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #G {
+    background-color: #c3c8d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #H {
+    background-color: #c3c8d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #I {
+    background-color: #c3c8d4;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  /*** CONTACT-NAVBAR  
+  => linked to styles.css ***/
+
+
+
+  
